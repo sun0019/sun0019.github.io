@@ -3500,7 +3500,7 @@ html.side-header #header.side-header .header-nav.header-nav-links-vertical-slide
 	#header .header-nav-main nav > ul li a.dropdown-toggle .fa-chevron-down {
 		position: absolute;
 		top: 0;
-		right: 0;
+		right: 5px;
 		width: 30px;
 		height: 100%;
 		display: -webkit-box;
