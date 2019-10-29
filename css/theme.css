@@ -3484,7 +3484,7 @@ html.side-header #header.side-header .header-nav.header-nav-links-vertical-slide
 		min-height: 38px;
 		min-width: 30px;
 		position: absolute;
-		right: 5px;
+		right: 9999px;
 		text-align: center;
 		top: 0;
 	}
