@@ -1,0 +1,57 @@
+/* Add here all your CSS customizations */
+.invest-chance h4, .invest-chance p{
+	padding: 0 30px 0 90px !important;
+}
+
+
+/*Responsive*/
+@media 
+only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px)  {
+
+	/* Force table to not be like tables anymore */
+	.services-table thead, .services-table tbody, .services-table th, .services-table td, .services-table tr { 
+		display: block; 
+	}	
+
+	.services-table th {
+		width: 80%;
+		border-top: none !important; 
+	}
+	
+	td:before { 
+		/* Now like a table header */
+		position: absolute;
+		/* Top/left values mimic padding */
+		top: 6px;
+		left: 6px;
+		white-space: nowrap;
+	}
+}
+
+@media 
+only screen and (min-width: 415px){
+	.services-content-2{
+		display: none;
+	}
+}
+
+@media 
+only screen and (max-width: 414px){
+	.services-content-1{
+		display: none;
+	}
+	.services-content-2{
+		display: block;
+	}
+	.local-image{
+		width: 90%;
+	}
+}
+
+@media 
+only screen and (max-width: 376px){
+	.services-content li{
+		font-size: 15px;
+	}
+}
